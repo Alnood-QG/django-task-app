@@ -1,7 +1,20 @@
-myenv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Django
 db.sqlite3
-.env
 *.log
+
+# Environment
+myenv/
+.env
+
+# Editor
 .vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
