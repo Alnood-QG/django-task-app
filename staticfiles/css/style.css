@@ -1,0 +1,58 @@
+/* home style*/
+body { font-family: Arial; margin: 50px; }
+.completed { color: green; text-decoration: line-through; }
+.pending { color: red; }
+ul { list-style: none; padding: 0; }
+li { padding: 10px; margin: 5px; background: #f0f0f0; border-radius: 5px; }
+
+/* add_task.html*/
+        form { 
+            background: #f0f0f0; 
+            padding: 20px; 
+            border-radius: 10px; }
+        input, textarea {
+             margin: 10px 0;
+              padding: 8px; 
+              width: 100%; }
+        .buttonGo { background: green; 
+            color: white;
+             padding: 10px; 
+             border: none;
+              cursor: pointer;}
+              
+    /* login and out*/
+        .user-info {
+        text-align: left;
+        margin-bottom: 20px;
+        padding: 10px;
+        background: #e8e8e8;
+        border-radius: 8px;
+        }
+        .logout-btn {
+            background: none;
+            border: none;
+            color: red;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .logout-btn:hover {
+            text-decoration: underline;
+        }
+        .login-link {
+            text-decoration: none;
+            color: #2196F3;
+        }
+
+/* delete_task.html*/
+.undo:hover {
+    background-color: #5a6268;
+}
+/* لمساتي الشخصية فوق Bootstrap */
+.card {
+    border-left: 5px solid #6c5ce7;
+}
+.user-info {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
