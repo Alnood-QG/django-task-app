@@ -21,6 +21,10 @@ The app covers basic task management, user authentication, and permissions. Each
 - HTML & CSS
 - Bootstrap 5
 
+# Live Demo:
+
+ [https://anudev.pythonanywhere.com](https://anudev.pythonanywhere.com)
+
 ## Getting Started
 
 To run the project locally, follow these steps.
